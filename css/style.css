@@ -5,6 +5,11 @@ body {
   background: rgb(247, 247, 247);
 }
 
+.conteiner {
+  max-width: 1140px;
+  width: 100%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -13,4 +18,50 @@ body {
 
 img {
   display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 31px;
+  align-items: center;
+}
+
+.head__logo {
+  display: flex;
+}
+
+.logo__icon {
+  width: 36px;
+  height: 39px;
+  padding-right: 5px;
+}
+
+.logo__text {
+  width: 45px;
+  height: 36px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+}
+
+.nav_text {
+  color: rgb(23, 12, 4);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.head__menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.menu__icon {
+  width: 18px;
+  height: 18px;
 }/*# sourceMappingURL=style.css.map */
