@@ -1,0 +1,16 @@
+.mainscreen {
+    display: flex;
+    margin: 0 auto;
+}
+
+.mainscreen__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainscreen__heading {
+    color: rgb(23, 12, 4);
+    font-size: 100px;
+    font-size: 700;
+    line-height: 120px;
+}
