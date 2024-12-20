@@ -3,3 +3,42 @@
 @import './resert';
 @import './blocks/header';
 @import './blocks/mainscreen';
+@import './blocks/features';
+
+.test {
+    padding: 10px 15px;
+
+}
+
+.test-item {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.test-item__square {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    // transform: translate(50%, -50%);
+    z-index: 2;
+}
+
+
+.test-item__circle {
+    background-color: green;
+    width: 50px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    // transform: translate(50%, -50%);
+    z-index: 2;
+
+}

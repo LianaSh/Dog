@@ -5,14 +5,19 @@
 
 .mainscreen__text {
     display: flex;
+    position: relative;
     flex-direction: column;
+    max-width: 613px;
 }
 
 .mainscreen__heading {
     color: rgb(23, 12, 4);
+    font-family: Poppins;
     font-size: 100px;
-    font-size: 700;
+    font-weight: 700;
     line-height: 120px;
+    margin-top: 148px;
+    margin-bottom: 119px;
 }
 
 .mainscreen__btns {
@@ -47,4 +52,15 @@
     font-weight: 400;
     justify-content: center;
     align-items: center;
+}
+
+.mainscreen__img {
+    position: absolute;
+    display: none;
+}
+
+.mainscreen__back {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
