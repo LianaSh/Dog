@@ -495,6 +495,38 @@ img {
   border: none;
 }
 
+.more {
+  display: flex;
+  justify-content: space-between;
+  gap: 31px;
+  margin-top: 120px;
+}
+
+.more__left {
+  display: block;
+  text-align: center;
+  width: 554px;
+}
+
+.more__title {
+  color: rgb(23, 12, 4);
+  font-size: 32.25px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.more__subtitle {
+  color: rgba(23, 12, 4, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 26px;
+}
+
+.more__list {
+  display: grid;
+}
+
 .test {
   padding: 10px 15px;
 }
