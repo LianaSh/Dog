@@ -28,4 +28,38 @@
 
 .more__list {
     display: grid;
+    grid-template-columns: repeat(2, 262px);
+    gap: 30px;
+}
+
+.more__pics {
+    display: flex;
+    width: 262px;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(144, 10, 8, 0.1);
+    border-radius: 5px;
+}
+
+.more__image {
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+}
+
+.more__right {
+    display: flex;
+    width: 555px;
+    height: 509px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 21, 75, 0.1);
+    border-radius: 10px;
+}
+
+.more__img {
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
 }
