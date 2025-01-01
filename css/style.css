@@ -670,6 +670,73 @@ img {
   height: 23.6px;
 }
 
+.feedback {
+  display: flex;
+  margin-top: 86px;
+}
+
+.beedback__card {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 96px;
+  padding: 102px 65px;
+  background-image: url(../../Img/Image/feedback.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.feedback__text {
+  display: flex;
+  flex-direction: column;
+  width: 423px;
+}
+
+.feedback__tittle {
+  color: rgb(255, 255, 255);
+  font-size: 31.25px;
+  font-weight: 500;
+  line-height: 40.6px;
+  margin-bottom: 17px;
+}
+
+.feedback__subtitle {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.feedback__form {
+  display: flex;
+  align-items: center;
+}
+
+.feedback__input {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px 0 0 10px;
+  border: none;
+  padding: 15px 220px 15px 21px;
+  color: rgba(23, 12, 4, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40.6px;
+}
+
+.feedback__btn {
+  display: flex;
+  background-color: rgb(226, 123, 58);
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  padding: 15px 37px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 40.6px;
+}
+
 .test {
   padding: 10px 15px;
 }
