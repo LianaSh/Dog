@@ -22,9 +22,12 @@
  }
 
  .nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 55px;
+   display: none;
+   justify-content: space-between;
+   gap: 55px;
+   @media (min-width: 1024px) {
+      display: flex;
+   }
  }
 
 .nav_text {

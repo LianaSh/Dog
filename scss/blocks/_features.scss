@@ -1,16 +1,23 @@
 .features {
     width: 100%;
-    margin-top: 267px;
+    margin-top: 150px;
+    @media (min-width: 720px) {
+        margin-top: 267px;
+    }
 }
 
 .features__list {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    
+    @media (min-width: 720px) {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
 }
 
 .features__card {
-    width: 360px;
+    width: 290px;
+    margin-bottom: 60px;
     position: relative;
     text-align: center;
     display: flex;
@@ -23,6 +30,10 @@
         border: 1px solid rgba(0, 0, 0, 0);
         // background-color: rgb(255, 255, 255);
         box-shadow: 0 5px 15px 0 rgba(244, 179, 132, 0.3);
+    }
+
+    @media (min-width: 385px) {
+        width: 360px;
     }
 }
 
