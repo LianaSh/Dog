@@ -131,11 +131,13 @@
     margin-top: 10px;
 
     @media (min-width: 620px) {
-        // width: 360px;
+        width: 360px;
         // height: 273px;
         display: flex;
         flex-direction: column;
+        text-align: center;
         align-items: center;
+        padding: 40px 30px;
         // text-align: center;
     }
 }
@@ -147,11 +149,10 @@
     align-items: center;
     padding: 31px 51px;
 
-
-    @media (max-width: 620px) {
-        // width: 360px;
-        // height: 273px;
-        padding-top: 5px;
+    @media (min-width: 620px) {
+        width: 360px;
+        height: 273px;
+        padding: 50px 30px;
     }
 
 }
@@ -184,4 +185,5 @@
     font-weight: 400;
     border: 1px solid rgb(226, 123, 58, 0.14);
     border-radius: 4px;
+    margin-bottom: 100px;
 }
