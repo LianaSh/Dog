@@ -883,18 +883,34 @@ img {
 .beedback__card {
   border-radius: 10px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
   gap: 96px;
-  padding: 102px 65px;
+  padding: 102px 15px;
   background-image: url(../../Img/Image/feedback.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+@media (min-width: 1150px) {
+  .beedback__card {
+    display: flex;
+    flex-direction: row;
+    padding: 102px 65px;
+  }
 }
 
 .feedback__text {
   display: flex;
   flex-direction: column;
-  width: 423px;
+  max-width: 320px;
+  width: 100%;
+}
+@media (min-width: 720px) {
+  .feedback__text {
+    max-width: 423px;
+    width: 100%;
+  }
 }
 
 .feedback__tittle {
@@ -919,27 +935,35 @@ img {
 }
 
 .feedback__input {
-  display: flex;
+  width: 100%;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 0 0 10px;
   border: none;
-  padding: 15px 220px 15px 21px;
+  padding: 16px 10px;
   color: rgba(23, 12, 4, 0.4);
   font-size: 16px;
   font-weight: 400;
-  line-height: 40.6px;
+}
+@media (min-width: 720px) {
+  .feedback__input {
+    padding: 15px 200px 15px 21px;
+    line-height: 40.6px;
+  }
 }
 
 .feedback__btn {
-  display: flex;
   background-color: rgb(226, 123, 58);
   border-radius: 0px 10px 10px 0px;
   border: none;
-  padding: 15px 37px;
+  padding: 15px 10px;
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 500;
-  line-height: 40.6px;
+}
+@media (min-width: 720px) {
+  .feedback__btn {
+    padding: 25px 37px;
+  }
 }
 
 .footer {
