@@ -21,7 +21,7 @@
                <p class="nav_text">Popular</p>
             </div>
     
-            <div class="head__menu">
+            <div id="menu" class="head__menu">
                 <img class="menu__icon" src="./Img/Icon/menu-icon-1.svg" alt="">
                 <img class="menu__icon" src="./Img/Icon/menu-icon-2.svg" alt="">
                 <img class="menu__icon" src="./Img/Icon/menu-icon-3.svg" alt="">
@@ -32,8 +32,8 @@
             <div class="mainscreen__text">
                 <h1 class="mainscreen__heading">Dog is my Copilot.</h1>
                 <div class="mainscreen__btns">
-                    <button class="mainscreen__btn">Buy Now</button>
-                    <button class="mainscreen__button">See Details</button>
+                    <button id="orderBtn" class="mainscreen__btn">Buy Now</button>
+                    <button id="detailsBtn" class="mainscreen__button">See Details</button>
                 </div>
             </div>
             <div class="mainscreen__image">
@@ -316,6 +316,28 @@
         </div>
         
     </section>
+
+    <div class="modal" id="modal">
+        <span class="modal__close">Xуй</span>
+    </div>
+
+    <div class="modal-two" id="orderModal">
+        <div class="modal-two__content">
+            <p>Оформить заказ</p>
+            <form action="">
+                <input type="text">
+                <button type="submit">Сделать заказ</button>
+                <button id="orderClose" type="button">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- <div class="modal-two" id="detailsModal">
+
+    </div> -->
+
+<script src="./js/main.js"></script>
+
 
 </body>
 </html>
