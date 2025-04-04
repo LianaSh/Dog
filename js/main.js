@@ -31,4 +31,32 @@ function closeOrderModal() {
 orderBtn.addEventListener('click', openOrderModal);
 orderClose.addEventListener('click', closeOrderModal);
 
-console.log(orderModal);
+const detailsBtn = document.querySelector('#detailsBtn');
+const detailsModal = document.querySelector('#detailsModal');
+const detailsClose = document.querySelector('#detailsClose');
+
+function openDetailsModal() {
+    detailsModal.classList.add('open');
+};
+
+function closeDetailsModal() {
+    detailsModal.classList.remove('open');
+};
+
+detailsBtn.addEventListener('click', openDetailsModal);
+detailsClose.addEventListener('click', closeDetailsModal);
+
+const appointmentBtn = document.querySelector('#appointmentBtn');
+const appointmentModal = document.querySelector('#appointmentModal');
+const appointmentClose = document.querySelector('#appointmentClose');
+
+function openAppointmentModal() {
+    appointmentModal.classList.add('open');
+}
+
+function closeAppointmentModal() {
+    appointmentModal.classList.remove('open');
+};
+
+appointmentBtn.addEventListener('click', openAppointmentModal);
+appointmentClose.addEventListener('click', closeAppointmentModal);

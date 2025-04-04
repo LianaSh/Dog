@@ -1140,6 +1140,27 @@ img {
   margin: 100px auto;
 }
 
+.appointment-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.appointment-modal.open {
+  display: block;
+}
+
+.appointment-modal__content {
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  padding: 30px 15px;
+  margin: 100px auto;
+}
+
 .dn {
   display: none;
 }/*# sourceMappingURL=style.css.map */

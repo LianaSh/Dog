@@ -21,10 +21,10 @@
                <p class="nav_text">Popular</p>
             </div>
     
-            <div id="menu" class="head__menu">
-                <img class="menu__icon" src="./Img/Icon/menu-icon-1.svg" alt="">
-                <img class="menu__icon" src="./Img/Icon/menu-icon-2.svg" alt="">
-                <img class="menu__icon" src="./Img/Icon/menu-icon-3.svg" alt="">
+            <div class="head__menu">
+                <img id="search" class="menu__icon" src="./Img/Icon/menu-icon-1.svg" alt="">
+                <img id="basket" class="menu__icon" src="./Img/Icon/menu-icon-2.svg" alt="">
+                <img id="menu" class="menu__icon" src="./Img/Icon/menu-icon-3.svg" alt="">
             </div>
         </header>
 
@@ -165,8 +165,8 @@
             <p class="information__text">A dog in heat needs more than shade The more people I meet the more I like my dog.The more people I meet the more I like my Dogs leave paw prints forever on our hearts.</p>
 
             <div class="information__buttons">
-                <button class="information__button">Appointment Now</button>
-                <button class="information__btn">See Details</button>
+                <button id="appointmentBtn" class="information__button">Appointment Now</button>
+                <button id="informationBtn" class="information__btn">See Details</button>
             </div>
         </div>
 
@@ -318,7 +318,7 @@
     </section>
 
     <div class="modal" id="modal">
-        <span class="modal__close">Xуй</span>
+        <span class="modal__close">Close</span>
     </div>
 
     <div class="modal-two" id="orderModal">
@@ -332,9 +332,28 @@
         </div>
     </div>
 
-    <!-- <div class="modal-two" id="detailsModal">
+    <div class="modal-two" id="detailsModal">
+        <div class="modal-two__content">
+            <p>Посмотреть особенности продуктов</p>
+            <form action="">
+                <input type="text" name="" id="">
+                <button type="submit">Узнать больше</button>
+                <button id="detailsClose" type="button">Close</button>
+            </form>
+        </div>
+    </div>
 
-    </div> -->
+    <div class="appointment-modal" id="appointmentModal">
+        <div class="appointment-modal__content">
+            <p>Записаться на прием</p>
+            <form action="">
+                <input type="text" name="" id="">
+                <button type="submit">Выбрать специалиста</button>
+                <button id="appointmentClose" type="button">Close</button>
+            </form>
+        </div>
+    </div>
+
 
 <script src="./js/main.js"></script>
 
