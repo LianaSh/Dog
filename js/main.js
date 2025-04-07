@@ -60,3 +60,34 @@ function closeAppointmentModal() {
 
 appointmentBtn.addEventListener('click', openAppointmentModal);
 appointmentClose.addEventListener('click', closeAppointmentModal);
+
+
+const informationBtn = document.querySelector('#informationBtn');
+const informationModal = document.querySelector('#informationModal');
+const informationClose = document.querySelector('#informationClose');
+
+function openInformationModal() {
+    informationModal.classList.add('open');
+}
+
+function closeInformationModal() {
+    informationModal.classList.remove('open');
+}
+
+informationBtn.addEventListener('click', openInformationModal);
+informationClose.addEventListener('click', closeInformationModal);
+
+const infoBtn = document.querySelector('#infoBtn');
+const infoModal = document.querySelector('#infoModal');
+const infoClose = document.querySelector('#infoClose');
+
+function openInfoBtn() {
+    infoModal.classList.add('open');
+}
+
+function closeInfoModal() {
+    infoModal.classList.remove('open');
+}
+
+infoBtn.addEventListener('click', openInfoBtn);
+infoClose.addEventListener('click', closeInfoModal);
