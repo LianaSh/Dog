@@ -1,5 +1,10 @@
 'use strict';
 
+const searchBtn = document.querySelector('#searchBtn');
+const searchOpen = document.querySelector('#searchModal');
+
+
+
 const modal = document.querySelector('#modal');
 const btnOpen = document.querySelector('#menu');
 const btnClose = modal.querySelector('.modal__close');
