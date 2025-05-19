@@ -1,8 +1,19 @@
 'use strict';
 
 const searchBtn = document.querySelector('#searchBtn');
-const searchOpen = document.querySelector('#searchModal');
+const searchModal = document.querySelector('#searchModal');
+const searchClose = document.querySelector('#searchClose');
 
+function openSearch() {
+    searchModal.classList.add('open');
+};
+
+function closeSearch() {
+    searchModal.classList.remove('open');
+};
+
+searchBtn.addEventListener('click', openSearch);
+searchClose.addEventListener('click', closeSearch);
 
 
 const modal = document.querySelector('#modal');
@@ -96,3 +107,21 @@ function closeInfoModal() {
 
 infoBtn.addEventListener('click', openInfoBtn);
 infoClose.addEventListener('click', closeInfoModal);
+
+
+// const feedbackBtn = document.querySelector('#feedbackBtn');
+// const feedbackModal = document.querySelector('#feedbackModal');
+// const feedbackClose = document.querySelector('#feedbackClose');
+
+// function openFeedback() {
+//     feedbackModal.classList.add('open');
+//     console.log("open");
+// };
+
+// function closeFeedbackModal() {
+//     feedbackModal.classList.remove('open');
+//     console.log("close");
+// };
+
+// feedbackBtn.addEventListener('click', openFeedback);
+// feedbackClose.addEventListener('click', closeFeedbackModal);
